@@ -1,0 +1,182 @@
+
+body{
+    font-family:'Times New Roman', Times, serif !important;
+    margin:0;
+    padding:0;
+}
+/*NAVBAR*/
+header{
+    background:url(/covid/images/png/background-edit.jpg);
+    background-image:center;
+    background-size:cover;
+    color:#fff;
+    height:100vh;
+    position:relative;
+} 
+.overlay{
+    background:rgba(0,0,0,0.2);
+    width:100%;
+    height:100%;
+    position:absolute;
+}
+.navbar-light{
+    background-color: transparent !important;
+    border-color: transparent !important;
+    background-image: transparent !important;
+    box-shadow: none;
+}
+.navbar-brand{
+    top:30px !important;
+    left: 80px !important;
+    position:relative;
+    font-size: 32px !important;
+    font-weight: bold;
+    color: #FFF !important;
+    padding:0px 40px;
+}
+.nav-link {
+    top:30px !important;
+    left: 380px !important;
+    position: relative;
+    font-size:20px; 
+    color:#fff !important; 
+    padding:5px 30px !important;
+}
+ .nav-link:hover{
+
+    border-radius: 15px !important;
+    background: rgb(1,255,239);
+    background: radial-gradient(circle, rgba(1,255,239,0.9808298319327731) 0%, rgba(158,158,227,1) 100%);
+ }
+ .navbar-toggler {
+     margin:10px 0; 
+     background:#fff; 
+ }
+/*NAVBAR ENDS*/
+/*STAY*/
+.stay{
+    color:#fff;
+}
+.stay span{
+    color:rgb(1,255,239);
+    font-size:80px;
+}
+.stay p:first-child{
+    font-size:50px !important;
+    bottom:330px !important;
+    right:400px !important;
+    position:absolute ;
+}
+.stay p:nth-child(2){
+    font-size:50px !important;
+    bottom:240px !important;
+    right:330px !important;
+    position:absolute ;
+}
+.stay p:nth-child(3){
+    font-size:50px !important;
+    bottom:150px !important;
+    right:380px !important;
+    position:absolute ;
+}
+.stay i{
+    margin-left:10px;
+}
+.al{
+    color:rgb(255,184,1);
+    
+}
+.virus{
+    color:rgb(110,108,240);
+}
+.heart{
+    color: rgb(247,17,17);
+}
+/*STAY ENDS*/
+/*ABOUT*/
+.about{
+    height:100%;
+    margin-top:100px !important;
+    padding:0px 80px 0px 80px;
+
+}
+.head h1{
+    font-size:70px;
+    margin-bottom:50px;
+    font-weight: bold;
+    background: #48CF87;
+    background: -webkit-linear-gradient(to right, #48CF87 21%, #6B21FF 26%, #CF7278 60%);
+    background: -moz-linear-gradient(to right, #48CF87 21%, #6B21FF 26%, #CF7278 60%);
+    background: linear-gradient(to right, #48CF87 21%, #6B21FF 26%, #CF7278 60%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.about span{
+    font-size:50px;
+}
+.about p{
+    font-size:24px;
+    background: #000000;
+    background: -webkit-linear-gradient(to left, #000000 0%, #8F57AB 50%, #000000 100%);
+    background: -moz-linear-gradient(to left, #000000 0%, #8F57AB 50%, #000000 100%);
+    background: linear-gradient(to left, #000000 0%, #8F57AB 50%, #000000 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+/*ABOUT ENDS*/
+/*Statistics*/
+.stats{
+    padding:0 80px 0 80px;
+    height:100%;
+    margin-top:150px !important;
+    background: rgb(171,0,255);
+background: linear-gradient(37deg, rgba(171,0,255,0.9808298319327731) 30%, rgba(45,141,249,1) 100%);
+}
+.stathead h1{
+    padding-top:100px !important;
+    font-size:60px;
+    margin-bottom:100px;
+    color:#001AC0;
+    font-weight: bold;
+}
+.info h3{
+    font-size:35px;
+    margin-top:30px !important;
+    margin-bottom:40px !important;
+}
+.globe{ 
+    color:#fff;
+}
+.gcase h5{
+    font-size:28px;
+    color:#fff;
+}
+.india h3{
+    color:#fff;
+}
+.india h5{
+    font-size:28px;
+    color:#fff;
+}
+.all h4{
+    font-size:28px;
+    color:#fff;
+    margin-top:60px;
+}
+.all{
+    text-align: center;
+}
+.all a{
+    font-size:24px;
+    color:#fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+.all a:hover{
+    transition:1s all ease-in-out;
+    color:#001AC0;
+}
+
+/*Statistics Ends*/
